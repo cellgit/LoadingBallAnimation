@@ -28,6 +28,7 @@
 		44384A221E4DBE0C00114A65 /* QDUIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 44384A161E4DBE0C00114A65 /* QDUIHelper.m */; };
 		44384A231E4DBE0C00114A65 /* UIImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 44384A181E4DBE0C00114A65 /* UIImageEffects.m */; };
 		44384A251E4DBEAC00114A65 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44384A241E4DBEAC00114A65 /* Images.xcassets */; };
+		44384A271E4DC30E00114A65 /* LoadingAnimation.png in Resources */ = {isa = PBXBuildFile; fileRef = 44384A261E4DC30E00114A65 /* LoadingAnimation.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +72,7 @@
 		44384A171E4DBE0C00114A65 /* UIImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageEffects.h; sourceTree = "<group>"; };
 		44384A181E4DBE0C00114A65 /* UIImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageEffects.m; sourceTree = "<group>"; };
 		44384A241E4DBEAC00114A65 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		44384A261E4DC30E00114A65 /* LoadingAnimation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LoadingAnimation.png; sourceTree = "<group>"; };
 		5D9F9415E9E57FC1D137500C /* Pods-QMUILoadingBallAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QMUILoadingBallAnimation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QMUILoadingBallAnimation/Pods-QMUILoadingBallAnimation.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,6 +132,7 @@
 				443849EC1E4DBBF400114A65 /* Assets.xcassets */,
 				44384A241E4DBEAC00114A65 /* Images.xcassets */,
 				443849EE1E4DBBF400114A65 /* LaunchScreen.storyboard */,
+				44384A261E4DC30E00114A65 /* LoadingAnimation.png */,
 				443849F11E4DBBF400114A65 /* Info.plist */,
 				443849E01E4DBBF400114A65 /* Supporting Files */,
 			);
@@ -275,6 +278,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44384A271E4DC30E00114A65 /* LoadingAnimation.png in Resources */,
 				443849F01E4DBBF400114A65 /* LaunchScreen.storyboard in Resources */,
 				44384A251E4DBEAC00114A65 /* Images.xcassets in Resources */,
 				443849ED1E4DBBF400114A65 /* Assets.xcassets in Resources */,
