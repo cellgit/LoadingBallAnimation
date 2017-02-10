@@ -7,15 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40AD7AE00109910FC20ACB4A /* Pods_QMUILoadingBallAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01BC0A6E298CDB27FD804D96 /* Pods_QMUILoadingBallAnimation.framework */; };
 		443849E21E4DBBF400114A65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 443849E11E4DBBF400114A65 /* main.m */; };
 		443849E51E4DBBF400114A65 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 443849E41E4DBBF400114A65 /* AppDelegate.m */; };
 		443849E81E4DBBF400114A65 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 443849E71E4DBBF400114A65 /* ViewController.m */; };
 		443849EB1E4DBBF400114A65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 443849E91E4DBBF400114A65 /* Main.storyboard */; };
 		443849ED1E4DBBF400114A65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 443849EC1E4DBBF400114A65 /* Assets.xcassets */; };
 		443849F01E4DBBF400114A65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 443849EE1E4DBBF400114A65 /* LaunchScreen.storyboard */; };
+		443849FC1E4DBD1900114A65 /* QDActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 443849F91E4DBD1900114A65 /* QDActivityIndicator.m */; };
+		443849FD1E4DBD1900114A65 /* QDAllAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 443849FB1E4DBD1900114A65 /* QDAllAnimationViewController.m */; };
+		44384A191E4DBE0C00114A65 /* QMUIConfigurationTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44384A021E4DBE0C00114A65 /* QMUIConfigurationTemplate.m */; };
+		44384A1A1E4DBE0C00114A65 /* QDCommonGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44384A051E4DBE0C00114A65 /* QDCommonGridViewController.m */; };
+		44384A1B1E4DBE0C00114A65 /* QDCommonGroupListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44384A071E4DBE0C00114A65 /* QDCommonGroupListViewController.m */; };
+		44384A1C1E4DBE0C00114A65 /* QDCommonListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44384A091E4DBE0C00114A65 /* QDCommonListViewController.m */; };
+		44384A1D1E4DBE0C00114A65 /* QDCommonTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44384A0B1E4DBE0C00114A65 /* QDCommonTableViewController.m */; };
+		44384A1E1E4DBE0C00114A65 /* QDCommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44384A0D1E4DBE0C00114A65 /* QDCommonViewController.m */; };
+		44384A1F1E4DBE0C00114A65 /* QDNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44384A0F1E4DBE0C00114A65 /* QDNavigationController.m */; };
+		44384A201E4DBE0C00114A65 /* QDTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44384A111E4DBE0C00114A65 /* QDTabBarViewController.m */; };
+		44384A211E4DBE0C00114A65 /* QDCommonUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 44384A141E4DBE0C00114A65 /* QDCommonUI.m */; };
+		44384A221E4DBE0C00114A65 /* QDUIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 44384A161E4DBE0C00114A65 /* QDUIHelper.m */; };
+		44384A231E4DBE0C00114A65 /* UIImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 44384A181E4DBE0C00114A65 /* UIImageEffects.m */; };
+		44384A251E4DBEAC00114A65 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44384A241E4DBEAC00114A65 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01BC0A6E298CDB27FD804D96 /* Pods_QMUILoadingBallAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QMUILoadingBallAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E7F0AD9145F44E4D8C2BC0E /* Pods-QMUILoadingBallAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QMUILoadingBallAnimation.release.xcconfig"; path = "Pods/Target Support Files/Pods-QMUILoadingBallAnimation/Pods-QMUILoadingBallAnimation.release.xcconfig"; sourceTree = "<group>"; };
 		443849DD1E4DBBF400114A65 /* QMUILoadingBallAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QMUILoadingBallAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		443849E11E4DBBF400114A65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		443849E31E4DBBF400114A65 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +43,35 @@
 		443849EC1E4DBBF400114A65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		443849EF1E4DBBF400114A65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		443849F11E4DBBF400114A65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		443849F71E4DBD1900114A65 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		443849F81E4DBD1900114A65 /* QDActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDActivityIndicator.h; sourceTree = "<group>"; };
+		443849F91E4DBD1900114A65 /* QDActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDActivityIndicator.m; sourceTree = "<group>"; };
+		443849FA1E4DBD1900114A65 /* QDAllAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDAllAnimationViewController.h; sourceTree = "<group>"; };
+		443849FB1E4DBD1900114A65 /* QDAllAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDAllAnimationViewController.m; sourceTree = "<group>"; };
+		44384A011E4DBE0C00114A65 /* QMUIConfigurationTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUIConfigurationTemplate.h; sourceTree = "<group>"; };
+		44384A021E4DBE0C00114A65 /* QMUIConfigurationTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMUIConfigurationTemplate.m; sourceTree = "<group>"; };
+		44384A041E4DBE0C00114A65 /* QDCommonGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDCommonGridViewController.h; sourceTree = "<group>"; };
+		44384A051E4DBE0C00114A65 /* QDCommonGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDCommonGridViewController.m; sourceTree = "<group>"; };
+		44384A061E4DBE0C00114A65 /* QDCommonGroupListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDCommonGroupListViewController.h; sourceTree = "<group>"; };
+		44384A071E4DBE0C00114A65 /* QDCommonGroupListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDCommonGroupListViewController.m; sourceTree = "<group>"; };
+		44384A081E4DBE0C00114A65 /* QDCommonListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDCommonListViewController.h; sourceTree = "<group>"; };
+		44384A091E4DBE0C00114A65 /* QDCommonListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDCommonListViewController.m; sourceTree = "<group>"; };
+		44384A0A1E4DBE0C00114A65 /* QDCommonTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDCommonTableViewController.h; sourceTree = "<group>"; };
+		44384A0B1E4DBE0C00114A65 /* QDCommonTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDCommonTableViewController.m; sourceTree = "<group>"; };
+		44384A0C1E4DBE0C00114A65 /* QDCommonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDCommonViewController.h; sourceTree = "<group>"; };
+		44384A0D1E4DBE0C00114A65 /* QDCommonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDCommonViewController.m; sourceTree = "<group>"; };
+		44384A0E1E4DBE0C00114A65 /* QDNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDNavigationController.h; sourceTree = "<group>"; };
+		44384A0F1E4DBE0C00114A65 /* QDNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDNavigationController.m; sourceTree = "<group>"; };
+		44384A101E4DBE0C00114A65 /* QDTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDTabBarViewController.h; sourceTree = "<group>"; };
+		44384A111E4DBE0C00114A65 /* QDTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDTabBarViewController.m; sourceTree = "<group>"; };
+		44384A131E4DBE0C00114A65 /* QDCommonUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDCommonUI.h; sourceTree = "<group>"; };
+		44384A141E4DBE0C00114A65 /* QDCommonUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDCommonUI.m; sourceTree = "<group>"; };
+		44384A151E4DBE0C00114A65 /* QDUIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDUIHelper.h; sourceTree = "<group>"; };
+		44384A161E4DBE0C00114A65 /* QDUIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDUIHelper.m; sourceTree = "<group>"; };
+		44384A171E4DBE0C00114A65 /* UIImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageEffects.h; sourceTree = "<group>"; };
+		44384A181E4DBE0C00114A65 /* UIImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageEffects.m; sourceTree = "<group>"; };
+		44384A241E4DBEAC00114A65 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5D9F9415E9E57FC1D137500C /* Pods-QMUILoadingBallAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QMUILoadingBallAnimation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QMUILoadingBallAnimation/Pods-QMUILoadingBallAnimation.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +79,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40AD7AE00109910FC20ACB4A /* Pods_QMUILoadingBallAnimation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F3ACF096948B25C25499D89 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D9F9415E9E57FC1D137500C /* Pods-QMUILoadingBallAnimation.debug.xcconfig */,
+				3E7F0AD9145F44E4D8C2BC0E /* Pods-QMUILoadingBallAnimation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		443849D41E4DBBF400114A65 = {
 			isa = PBXGroup;
 			children = (
 				443849DF1E4DBBF400114A65 /* QMUILoadingBallAnimation */,
 				443849DE1E4DBBF400114A65 /* Products */,
+				1F3ACF096948B25C25499D89 /* Pods */,
+				72ED69534D8022307564ADCE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,12 +116,19 @@
 		443849DF1E4DBBF400114A65 /* QMUILoadingBallAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				443849FE1E4DBE0C00114A65 /* Modules */,
 				443849E31E4DBBF400114A65 /* AppDelegate.h */,
 				443849E41E4DBBF400114A65 /* AppDelegate.m */,
 				443849E61E4DBBF400114A65 /* ViewController.h */,
 				443849E71E4DBBF400114A65 /* ViewController.m */,
+				443849F71E4DBD1900114A65 /* PrefixHeader.pch */,
+				443849F81E4DBD1900114A65 /* QDActivityIndicator.h */,
+				443849F91E4DBD1900114A65 /* QDActivityIndicator.m */,
+				443849FA1E4DBD1900114A65 /* QDAllAnimationViewController.h */,
+				443849FB1E4DBD1900114A65 /* QDAllAnimationViewController.m */,
 				443849E91E4DBBF400114A65 /* Main.storyboard */,
 				443849EC1E4DBBF400114A65 /* Assets.xcassets */,
+				44384A241E4DBEAC00114A65 /* Images.xcassets */,
 				443849EE1E4DBBF400114A65 /* LaunchScreen.storyboard */,
 				443849F11E4DBBF400114A65 /* Info.plist */,
 				443849E01E4DBBF400114A65 /* Supporting Files */,
@@ -79,6 +144,75 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		443849FE1E4DBE0C00114A65 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				443849FF1E4DBE0C00114A65 /* Common */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		443849FF1E4DBE0C00114A65 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				44384A001E4DBE0C00114A65 /* Configuration */,
+				44384A031E4DBE0C00114A65 /* Controllers */,
+				44384A121E4DBE0C00114A65 /* Utils */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		44384A001E4DBE0C00114A65 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				44384A011E4DBE0C00114A65 /* QMUIConfigurationTemplate.h */,
+				44384A021E4DBE0C00114A65 /* QMUIConfigurationTemplate.m */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		44384A031E4DBE0C00114A65 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				44384A041E4DBE0C00114A65 /* QDCommonGridViewController.h */,
+				44384A051E4DBE0C00114A65 /* QDCommonGridViewController.m */,
+				44384A061E4DBE0C00114A65 /* QDCommonGroupListViewController.h */,
+				44384A071E4DBE0C00114A65 /* QDCommonGroupListViewController.m */,
+				44384A081E4DBE0C00114A65 /* QDCommonListViewController.h */,
+				44384A091E4DBE0C00114A65 /* QDCommonListViewController.m */,
+				44384A0A1E4DBE0C00114A65 /* QDCommonTableViewController.h */,
+				44384A0B1E4DBE0C00114A65 /* QDCommonTableViewController.m */,
+				44384A0C1E4DBE0C00114A65 /* QDCommonViewController.h */,
+				44384A0D1E4DBE0C00114A65 /* QDCommonViewController.m */,
+				44384A0E1E4DBE0C00114A65 /* QDNavigationController.h */,
+				44384A0F1E4DBE0C00114A65 /* QDNavigationController.m */,
+				44384A101E4DBE0C00114A65 /* QDTabBarViewController.h */,
+				44384A111E4DBE0C00114A65 /* QDTabBarViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		44384A121E4DBE0C00114A65 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				44384A131E4DBE0C00114A65 /* QDCommonUI.h */,
+				44384A141E4DBE0C00114A65 /* QDCommonUI.m */,
+				44384A151E4DBE0C00114A65 /* QDUIHelper.h */,
+				44384A161E4DBE0C00114A65 /* QDUIHelper.m */,
+				44384A171E4DBE0C00114A65 /* UIImageEffects.h */,
+				44384A181E4DBE0C00114A65 /* UIImageEffects.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		72ED69534D8022307564ADCE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01BC0A6E298CDB27FD804D96 /* Pods_QMUILoadingBallAnimation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +220,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 443849F41E4DBBF400114A65 /* Build configuration list for PBXNativeTarget "QMUILoadingBallAnimation" */;
 			buildPhases = (
+				BE9ADF3E0F1002BD32BF5AC7 /* [CP] Check Pods Manifest.lock */,
 				443849D91E4DBBF400114A65 /* Sources */,
 				443849DA1E4DBBF400114A65 /* Frameworks */,
 				443849DB1E4DBBF400114A65 /* Resources */,
+				E0D975687FE1D82D26E6ABB6 /* [CP] Embed Pods Frameworks */,
+				D0FB30C356255D27F2669B6A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -139,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				443849F01E4DBBF400114A65 /* LaunchScreen.storyboard in Resources */,
+				44384A251E4DBEAC00114A65 /* Images.xcassets in Resources */,
 				443849ED1E4DBBF400114A65 /* Assets.xcassets in Resources */,
 				443849EB1E4DBBF400114A65 /* Main.storyboard in Resources */,
 			);
@@ -146,14 +284,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BE9ADF3E0F1002BD32BF5AC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D0FB30C356255D27F2669B6A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QMUILoadingBallAnimation/Pods-QMUILoadingBallAnimation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0D975687FE1D82D26E6ABB6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QMUILoadingBallAnimation/Pods-QMUILoadingBallAnimation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		443849D91E4DBBF400114A65 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44384A1F1E4DBE0C00114A65 /* QDNavigationController.m in Sources */,
+				443849FD1E4DBD1900114A65 /* QDAllAnimationViewController.m in Sources */,
+				44384A1E1E4DBE0C00114A65 /* QDCommonViewController.m in Sources */,
 				443849E81E4DBBF400114A65 /* ViewController.m in Sources */,
+				44384A191E4DBE0C00114A65 /* QMUIConfigurationTemplate.m in Sources */,
+				44384A1C1E4DBE0C00114A65 /* QDCommonListViewController.m in Sources */,
+				44384A1A1E4DBE0C00114A65 /* QDCommonGridViewController.m in Sources */,
 				443849E51E4DBBF400114A65 /* AppDelegate.m in Sources */,
 				443849E21E4DBBF400114A65 /* main.m in Sources */,
+				44384A1B1E4DBE0C00114A65 /* QDCommonGroupListViewController.m in Sources */,
+				443849FC1E4DBD1900114A65 /* QDActivityIndicator.m in Sources */,
+				44384A1D1E4DBE0C00114A65 /* QDCommonTableViewController.m in Sources */,
+				44384A231E4DBE0C00114A65 /* UIImageEffects.m in Sources */,
+				44384A201E4DBE0C00114A65 /* QDTabBarViewController.m in Sources */,
+				44384A211E4DBE0C00114A65 /* QDCommonUI.m in Sources */,
+				44384A221E4DBE0C00114A65 /* QDUIHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,9 +470,11 @@
 		};
 		443849F51E4DBBF400114A65 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D9F9415E9E57FC1D137500C /* Pods-QMUILoadingBallAnimation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UTT4HQ4F3H;
+				GCC_PREFIX_HEADER = QMUILoadingBallAnimation/PrefixHeader.pch;
 				INFOPLIST_FILE = QMUILoadingBallAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shoplex.QMUILoadingBallAnimation;
@@ -283,9 +484,11 @@
 		};
 		443849F61E4DBBF400114A65 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E7F0AD9145F44E4D8C2BC0E /* Pods-QMUILoadingBallAnimation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UTT4HQ4F3H;
+				GCC_PREFIX_HEADER = QMUILoadingBallAnimation/PrefixHeader.pch;
 				INFOPLIST_FILE = QMUILoadingBallAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shoplex.QMUILoadingBallAnimation;
@@ -312,6 +515,7 @@
 				443849F61E4DBBF400114A65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
